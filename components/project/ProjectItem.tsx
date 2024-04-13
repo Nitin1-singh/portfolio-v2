@@ -7,7 +7,7 @@ export function ProjectItem({ src, title, content, href }: { src: string, title:
   return (
     <div className="flex xl:flex-row gap-10 max-lg:flex-col max-lg:justify-center">
       <div className="w-1/2 max-lg:w-full">
-        <Image radius="none" src={src} />
+        <Image alt="project image" radius="none" src={src} />
       </div>
       <div className="w-1/2 flex flex-col justify-around max-lg:w-full max-lg:text-center">
         <h1 className="font-bold xl:text-2xl">{title}</h1>
