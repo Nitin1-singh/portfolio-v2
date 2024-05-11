@@ -11,7 +11,9 @@ export function ProjectSection() {
         </div>
         <div className="mb-20">
           <div className="w-3/4 flex flex-col mx-auto gap-20">
-            <ProjectItem href="https://github.com/Nitin1-singh/3YH" src="/project/3yh.png" title="3YH" content="3YH is an hackathon platform that leverages cutting-edge web development technologies such as Next.js, Flask, React, and TypeScript to create a robust and scalable solution for data science challenges competitions." />
+            <ProjectItem href="https://github.com/Nitin1-singh/leplit" src="/project/leplit.png" title="Leplit" content="Leplit is an online IDE that leverages cutting-edge web development technologies such as Next.js, React, TypeScript,docker,Node js,Socket io to create a robust and scalable solution" />
+            <ProjectItem href="https://github.com/Nitin1-singh/play.com" src="/project/play.png" title="Play.com" content="Play.com is an online chess playing game that leverages cutting-edge web development technologies such as Next.js, React, TypeScript,docker,Node js,Socket io to create a robust and scalable solution" />
+            
           </div>
         </div>
       </div>

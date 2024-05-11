@@ -21,7 +21,7 @@ export function CustomNavbar() {
         <div className="max-sm:ms-8 max-sm:basis-full max-sm:justify-between basis-1/4 text-xl font-bold flex justify-center">
           <h1 className="hover:cursor-pointer">NITIN SINGH NEGI</h1>
           <div className="max-sm:me-8">
-            <Image src={visible ? "./list.svg" : "./x.svg"} width={30} height={30} radius="none" className="sm:hidden max-sm:hover:cursor-pointer" alt="menu" onClick={toggleVisibility} />
+            <Image src={visible ? "./list.svg" : "./x.svg"} width={30} height={30} radius="none" className="sm:hidden" alt="menu" onClick={toggleVisibility} />
           </div>
         </div>
         {

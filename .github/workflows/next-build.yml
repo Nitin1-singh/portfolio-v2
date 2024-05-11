@@ -1,0 +1,24 @@
+name: Build App
+
+on:
+  push:
+    branches: [master, main]
+  pull_request:
+    branches: [master, main]
+
+jobs:
+  build:
+    name: Build Code
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checout Code
+        uses: actions/checkout@v2
+      - name: Install Dependecies
+        run: yarn install
+      - name: Building...
+        run: yarn build
+      - name: Save artifact
+        uses: actions/upload-artifacts@v2
+        with:
+          name: dist
+          path: .next/

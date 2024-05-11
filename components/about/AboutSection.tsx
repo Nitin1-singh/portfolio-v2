@@ -8,7 +8,7 @@ export function AboutSection() {
         <div className="flex flex-col justify-center items-center max-sm:justify-between sm:my-16 max-sm:my-10">
           <p className="text-4xl font-semibold">ABOUT ME</p>
           <span className="w-[2rem] h-[5px] rounded-lg bg-[#7843E9] mt-3" />
-          <div className="w-3/4 flex  xl:flex-row xl:justify-evenly items-center xl:my-14 max-lg:flex-col max-lg:mt-10">
+          <div className="w-11/12 flex  xl:flex-row xl:justify-evenly items-center xl:my-14 max-lg:flex-col max-lg:mt-10">
             <div className="w-5/12 max-lg:w-full">
               <Image className="fit-content" src="./about.webp" alt="about" isZoomed />
             </div>
