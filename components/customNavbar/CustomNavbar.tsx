@@ -25,7 +25,8 @@ export function CustomNavbar() {
           </div>
         </div>
         {
-          <div style={{ display: width < 600 ? visible ? "none" : "flex" : "flex" }} className={`sm:flex max-sm:bg-opacity-50 max-sm:backdrop-blur-lg max-sm:w-screen max-sm:h-52  max-sm:absolute max-sm:top-16 basis-1/2  flex-row place-content-end text-xs font-semibold flex`}>
+          <div style={{ display: width < 600 ? visible ? "none" : "flex" : "flex" }} className={`sm:flex max-sm:bg-opacity-50 max-sm:z-[10000]  max-sm:backdrop-blur-lg max-sm:w-screen max-sm:h-52  max-sm:absolute max-sm:top-16 basis-1/2  flex-row place-content-end text-xs font-semibold flex`}>
+
             <div className="flex flex-row max-sm:flex-col max-sm:w-1/2 max-sm:items-end max-sm:pe-8 max-sm:my-5 max-sm:ps-5 justify-between w-full lg:w-3/4">
               <Link className="text-black text-base hover:text-purple-700" onClick={() => setVisible(true)} href="#home">HOME</Link>
               <Link className="text-black text-base hover:text-purple-700" onClick={() => setVisible(true)} href="#about">ABOUT</Link>

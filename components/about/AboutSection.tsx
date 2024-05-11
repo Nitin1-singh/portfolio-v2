@@ -16,8 +16,7 @@ export function AboutSection() {
               <h1 className="text-3xl font-bold">FULL STACK WEB DEVELOPER</h1>
               <p className="basis-1/2 text-[#555] text-lg">
                 I{'\''}m a Full Stack Focused Web Developer Check out some of my work in the Projects section.
-                I also like sharing content related to the stuff that I have learned over the years in Web Development so it can help other people of the Dev Community. Feel free to Connect or Follow me on my Linkedin. I{'\''}m open to Job opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don{'\''
-                }t hesitate to contact me.
+                I also like sharing content related to the stuff that I have learned over the years in Web Development so it can help other people of the Dev Community. Feel free to Connect or Follow me on my Linkedin. I{'\''}m open to Job opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don{'\''}t hesitate to contact me.
               </p>
             </div>
           </div>
